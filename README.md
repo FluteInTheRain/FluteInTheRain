@@ -16,7 +16,7 @@ Passionate about building intelligent systems and exploring the future of AI & R
   - Backend: **ExpressJS / NodeJS**
   - Frontend: **ReactJS**
 
-- 🎓 Currently pursuing a **Master’s Degree in Artificial Intelligence** at **HCMUS**
+- 🎓 Currently pursuing a Master’s Degree in Artificial Intelligence at **HCMUS**
 
 - 🧠 Strong interest in:
   - Deep Learning
@@ -87,15 +87,11 @@ class KhangNguyen:
 
 ---
 
-## Fun Facts:
-
-<div align="center">
+## 😊 Fun Facts:
 
 - I love animals, especially cats
 - Hobbies: guitar, games (League of Legends), travel, math, cooking
 - Don't like: spider, coffee, matcha
-
-</div>
 
 ---
 
