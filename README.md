@@ -53,8 +53,6 @@ Full-stack software engineer with nearly 3 years of experience building products
 ![QLoRA fine-tuning](https://img.shields.io/badge/QLoRA%20fine--tuning-412991?style=flat-square)
 ![vLLM](https://img.shields.io/badge/vLLM-412991?style=flat-square)
 ![LLM evaluation](https://img.shields.io/badge/LLM%20evaluation-412991?style=flat-square)
-
-**AI-assisted Engineering**
 ![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
 ![Multi-agent workflows](https://img.shields.io/badge/Multi--agent%20workflows-D97757?style=flat-square)
 ![Context engineering](https://img.shields.io/badge/Context%20engineering-D97757?style=flat-square)
