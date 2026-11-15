@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Software Engineer · Web Engineer at Kafi Securities**
+**Full-stack Software Engineer · Web Engineer at Kafi Securities**
 
 District 8, Ho Chi Minh City, Vietnam
 
@@ -12,7 +12,7 @@ District 8, Ho Chi Minh City, Vietnam
 
 ## Summary
 
-Software Engineer with nearly 3 years of experience developing and delivering online marketplace platforms for diverse business models, and currently working at Kafi Securities. Strong focus on scalability, reliability, and long-term maintainability in fast-paced product teams.
+Full-stack software engineer with nearly 3 years of experience building products end to end: React frontends, Node.js and Go services, and AWS infrastructure. Helped deliver 10+ online marketplace platforms; now building real-time trading systems at Kafi Securities while studying for a Master's in AI. Strong focus on reliability, performance and long-term maintainability.
 
 ## Core Skills
 
@@ -46,8 +46,20 @@ Software Engineer with nearly 3 years of experience developing and delivering on
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 ![FIX Gateway](https://img.shields.io/badge/FIX%20Gateway-555555?style=flat-square)
 
-**AI**
+**AI & LLM**
 ![OpenAI API](https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square)
+![Embeddings & semantic search](https://img.shields.io/badge/Embeddings%20%26%20semantic%20search-412991?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-412991?style=flat-square)
+![QLoRA fine-tuning](https://img.shields.io/badge/QLoRA%20fine--tuning-412991?style=flat-square)
+![vLLM](https://img.shields.io/badge/vLLM-412991?style=flat-square)
+![LLM evaluation](https://img.shields.io/badge/LLM%20evaluation-412991?style=flat-square)
+
+**AI-assisted Engineering**
+![Claude Code](https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=claude&logoColor=white)
+![Multi-agent workflows](https://img.shields.io/badge/Multi--agent%20workflows-D97757?style=flat-square)
+![Context engineering](https://img.shields.io/badge/Context%20engineering-D97757?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-D97757?style=flat-square)
+![Agent hooks & skills](https://img.shields.io/badge/Agent%20hooks%20%26%20skills-D97757?style=flat-square)
 
 **Cloud & DevOps**
 ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-FF9900?style=flat-square)
@@ -62,14 +74,17 @@ Software Engineer with nearly 3 years of experience developing and delivering on
 **Tools**
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-0052CC?style=flat-square&logo=trello&logoColor=white)
 
 ## Experience
 
 **Kafi Securities** — *Web Engineer* · Oct 2026 – Present
 
-- **Tech stack:** Golang, Python, Kafka, Redis, NATS, FIX gateway, Jenkins, Elasticsearch, Kubernetes, React/Next.js.
+- **Tech stack:** Golang, Python, TypeScript, Kafka, PostgreSQL, Redis, NATS, FIX gateway, Jenkins, Elasticsearch, Kubernetes, React/Next.js.
+- Built a real-time trading workspace in React/TypeScript (dockable and pop-out panels, per-user saved layouts, a wide AG Grid quote sheet) backed by a Go BFF and a Python pricing engine.
+- Moved the order book off full reads of the upstream core system to a PostgreSQL + Kafka event-sourced view, with cursor-paginated APIs and virtualized React tables, so the console shows every order of the day.
+- Made the console reliable under failure: reconnect-safe market depth (snapshot epochs, back-off with jitter), confirmed bulk cancels with the exact order count, and plain-language reasons for rejected orders.
+- Kept a high-frequency market-data UI responsive (batched updates, row-level memoization, throttled redraws) and verified fixes end to end on a local FIX/Kafka trading rig with Playwright.
 
 **JourneyHorizon** — *Associate Software Engineer* · Mar 2024 – Sep 2026
 
@@ -103,7 +118,7 @@ Software Engineer with nearly 3 years of experience developing and delivering on
 
 ## Education
 
-- **Master of Artificial Intelligence** — VNUHCM – University of Science · Dec 2025 – Present · 9.07/10
+- **Master of Artificial Intelligence** — VNUHCM – University of Science · Dec 2025 – Present · 8.71/10
 - **B.Sc. in Software Engineering** — VNUHCM – University of Science · Sep 2020 – Jul 2024 · 8.90/10
 
 ## Certifications
